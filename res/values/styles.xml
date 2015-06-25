@@ -17,8 +17,8 @@
 
 <resources xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <style name="Theme" parent="@android:style/Theme.Material.Light.DarkActionBar">
-        <item name="android:colorPrimary">@color/calculator_accent_color</item>
+    <style name="Theme" parent="@android:style/Theme.Material.DarkActionBar">
+        <item name="android:colorPrimary">@color/calculator_primary_color</item>
         <item name="android:statusBarColor">@color/calculator_accent_color</item>
         <item name="android:windowSoftInputMode">stateAlwaysHidden</item>
     </style>
@@ -35,7 +35,7 @@
         <item name="android:title">@string/menu_licenses</item>
     </style>
 
-    <style name="DisplayTextStyle" parent="@android:style/Widget.Material.Light.TextView">
+    <style name="DisplayTextStyle" parent="@android:style/Widget.Material.TextView">
         <item name="android:background">@android:color/transparent</item>
         <item name="android:cursorVisible">false</item>
         <item name="android:fontFamily">sans-serif-light</item>
@@ -44,7 +44,7 @@
         <item name="android:textAlignment">viewEnd</item>
     </style>
 
-    <style name="PadButtonStyle" parent="@android:style/Widget.Material.Light.Button.Borderless">
+    <style name="PadButtonStyle" parent="@android:style/Widget.Material.Button.Borderless">
         <item name="android:layout_width">0dip</item>
         <item name="android:layout_height">0dip</item>
         <item name="android:layout_rowWeight">1</item>
