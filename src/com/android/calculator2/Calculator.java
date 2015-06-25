@@ -359,7 +359,7 @@ public class Calculator extends Activity
             } else if (mCurrentState != CalculatorState.RESULT) {
                 mFormulaText.setTextColor(getColor(R.color.display_formula_text_color));
                 mResultText.setTextColor(getColor(R.color.display_result_text_color));
-                getWindow().setStatusBarColor(getColor(R.color.calculator_primary_color));
+                getWindow().setStatusBarColor(getColor(R.color.calculator_primary_dark_color));
             }
 
             invalidateOptionsMenu();
@@ -736,7 +736,7 @@ public class Calculator extends Activity
         }
         cancelIfEvaluating(true);
         announceClearedForAccessibility();
-        reveal(mCurrentButton, R.color.calculator_accent_color, new AnimatorListenerAdapter() {
+        reveal(mCurrentButton, R.color.calculator_primary_dark_color, new AnimatorListenerAdapter() {
             @Override
             public void onAnimationEnd(Animator animation) {
                 mUnprocessedChars = null;

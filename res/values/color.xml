@@ -18,9 +18,9 @@
 <resources>
 
     <!-- Default background color for the status bar. -->
-    <color name="calculator_primary_color">#ff3f51b5</color> <!-- Indigo 500 -->
+    <color name="calculator_primary_dark_color">#ff3f51b5</color> <!-- Indigo 500 -->
 
-    <!-- Default accent color. -->
+    <!-- Accent color. -->
     <color name="calculator_accent_color">#ff009688</color> <!-- Teal 500 -->
 
     <!-- Color to indicate an error has occured. -->
